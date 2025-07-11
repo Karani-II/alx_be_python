@@ -1,5 +1,5 @@
-number1=10
-number2=5
+number1 = 10
+number2 = 5
 operation="Addition"
 result=number1+number2
 print(operation , "of", number1, "and", number2, "is", result)
