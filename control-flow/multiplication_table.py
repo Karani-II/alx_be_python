@@ -3,5 +3,5 @@ for i in range(1, 11):
     x = number
     y = i
     z = number * i
-print(x, "*", y, "=", z)
+    print(x, "*", y, "=", z)
 
