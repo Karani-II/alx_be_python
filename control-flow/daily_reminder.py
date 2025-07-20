@@ -1,6 +1,6 @@
-task = str(input("Enter your task"))
-priority = str(input("Priority (high/medium/low)"))
-time_bound = str(input("Is it time-bound? (yes/no)"))
+task = str(input("Enter your task: "))
+time_bound = str(input("Is it time-bound? (yes/no) "))
+priority = str(input("Priority (high/medium/low) "))
 match priority:
     case "high":
      if time_bound == "yes":
@@ -17,4 +17,4 @@ match priority:
             print(f"Reminder: {task} is a low priority task, but it is time_bound. Please complete it soon.")
         else:
             print(f"Note: {task} is a low priority task. You can complete it at your leisure.")
-            
+
