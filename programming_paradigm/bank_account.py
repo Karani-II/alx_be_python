@@ -1,6 +1,6 @@
 class BankAccount:
     def __init__(self, account_balance):
-        self.account_balance = 500
+        self.account_balance = 0
 
     def deposit(self, amount):
         self.account_balance += amount
@@ -8,5 +8,5 @@ class BankAccount:
     def withdraw(self, amount):
         self.account_balance -= amount
         return True if self.account_balance >= amount else False
-    def display_balance(self, amount):
+    def display_balance(self):
         print(f"Current Balance:{self.account_balance}")
