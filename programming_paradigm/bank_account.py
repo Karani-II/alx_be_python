@@ -9,4 +9,4 @@ class BankAccount:
         self.account_balance -= amount
         return True if self.account_balance >= amount else False
     def display_balance(self, amount):
-        print(f"Hello, you current balance is: {self.account_balance}")
+        print(f"Current Balance:{self.account_balance}")
