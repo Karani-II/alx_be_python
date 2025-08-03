@@ -1,11 +1,11 @@
 def safe_divide(numerator, denominator):
-try:
+ try:
     numerator = float(numerator)
     denominator = float(denominator)
     if denominator == 0:
          raise ZeroDivisionError("Error: Cannot divide by zero.")
     return numerator / denominator
-except ZeroDivisionError as e:
+ except ZeroDivisionError as e:
      return str(e)
-except ValueError:
+ except ValueError:
      return "Error: Please enter numeric values only."
