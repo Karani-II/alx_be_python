@@ -13,7 +13,7 @@ class Library:
         if book in self.books:
             self.books.remove(book)
             book._is_checked_out = True
- def return_book(self, book):
+ def return_book(self):
         self.books.append(book)
         book._is_checked_out = False
  def list_available_books(self):
