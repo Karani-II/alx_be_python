@@ -3,7 +3,7 @@ try:
     numerator = float(numerator)
     denominator = float(denominator)
     if denominator == 0:
-         raise ZeroDivisionError("Denominator by zero is not allowed.")
+         raise ZeroDivisionError("Error: Cannot divide by zero.")
     return numerator / denominator
 except ZeroDivisionError as e:
      return str(e)
