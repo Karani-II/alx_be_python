@@ -8,4 +8,4 @@ try:
 except ZeroDivisionError as e:
      return str(e)
 except ValueError:
-     return "Invalid input: Please enter numeric values."
+     return "Error: Please enter numeric values only."
