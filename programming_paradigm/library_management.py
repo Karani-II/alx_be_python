@@ -10,10 +10,10 @@ class Library:
  def add_book(self, book):
         self._books.append(book)
  def check_out_book(self, book):
-        if book in self.books:
+        if book in self._books:
             self._books.remove(book)
             book._is_checked_out = True
- def return_book(self):
+ def return_book(self,book):
         self._books.append(book)
         book._is_checked_out = False
  def list_available_books(self):
