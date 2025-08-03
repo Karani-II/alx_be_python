@@ -1,4 +1,4 @@
-def safe_divide(float (numerator), float (denominator)):
+def safe_divide(numerator:float, denominator:float) -> float:
 try:
     if denominator == 0:
          raise ZeroDivisionError("Denominator by zero is not allowed.")
